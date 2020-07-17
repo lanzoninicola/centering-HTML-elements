@@ -1,0 +1,93 @@
+* {
+    font-family: Consolas;
+    color: #e8e4e6;  
+    background-color: #004643;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  #header {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .section {
+    margin-bottom:40px;
+    border: solid 1px #f9bc60;
+    
+  }
+  
+  span {
+    background-color: transparent;
+    color:  black;
+    text-weight: 200;
+  }
+  
+  .title {
+    color: #f9bc60;
+    font-weight: 100;
+    
+  }
+  
+  .item {
+    border: dotted 1px white;
+  }
+  
+  .black {
+    color: black
+  }
+  
+  .transparent {
+    background-color: transparent;
+    border: dotted 1px black;
+  }
+  
+  .no-border {
+    border: none;
+  }
+  
+  .container {
+    border: dotted 2px;
+    background-color: white;
+  }
+  
+  input {
+    width: 250px; 
+    margin: 10px; 
+    color: white
+  }
+  
+  input::placeholder {
+    color: white;
+  }
+  
+  button {
+    width: 150px; 
+    color: white; 
+    cursor: pointer;
+    border-radius: 5%;
+    border: none;
+    
+  }
+  
+  /****** NO STYLE SECTION - START ******/
+  
+  /* No style in the container or items applied +/
+  
+  
+  /****** FLEXBOX-HORIZONTAL - START ******/
+  
+  #flexbox-horizontal-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /****** FLEXBOX-VERTICALLY - START ******/
+  
+  #flexbox-vertically-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  
