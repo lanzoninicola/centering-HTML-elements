@@ -16,6 +16,11 @@
     border: solid 1px #f9bc60;
     
   }
+
+  .whitespace {
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
   
   span {
     background-color: transparent;
